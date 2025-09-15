@@ -68,7 +68,7 @@ body {
     padding: 1rem;
 }
 #faq-button {
-    padding: .5rem;
+    padding: .5rem 1rem;
     margin-left: 35%;
     border-radius: 5px;
     cursor: pointer;

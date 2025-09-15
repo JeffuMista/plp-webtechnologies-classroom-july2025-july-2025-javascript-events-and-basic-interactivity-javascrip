@@ -82,8 +82,10 @@ faqsButton.addEventListener("click", toggleModal); //add event listener to the f
 function toggleModal() {
     if (faqList.style.display === "none") {
         faqList.style.display = "block"
+        faqsButton.textContent = "Hide FAQS"
     }
     else {
         faqList.style.display = "none"
+        faqsButton.textContent = "Show FAQS"
     }
 }
