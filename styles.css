@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+#nav {
+    display: flex;
+    background-color: aqua;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+    background-color: aqua;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+#toggle-background {
+    border: none;
+    background-color: grey;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#myForm {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 4rem auto;
+    padding: 1rem;
+}
+#name, #email, #password, #submit {
+    padding: 1rem;
+    border-radius: 5px;
+}
+#submit {
+    font-size: 2rem;
+    background-color: aqua;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#username-Error, #email-Error, #password-Error {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:red;
+    margin-top: 5px;
+}
+#success-message {
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
+#faqs {
+    margin: 4rem auto;
+    max-width: 400px;
+    padding: 1rem;
+}
+#faq-button {
+    padding: .5rem;
+    margin-left: 35%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#faq-list {
+    padding: 3rem;
+    list-style: decimal;
+    font-size: 1.5rem;
+    font-style: oblique;
+    background-color: seashell;
+    display: none;
+}

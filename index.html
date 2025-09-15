@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="nav">
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <div>
+            <button id="toggle-background">
+                Change background
+            </button>
+        </div>  
+    </section>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full Name">
+        <span id="username-Error"></span>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email">
+        <span id="email-Error"></span>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="password">
+        <span id="password-Error"></span>
+        <br><br>
+
+        <button type="submit" id="submit">Submit</button>
+        <p id="success-message"></p>
+    </form>
+    
+    <section id="faqs">
+        <button id="faq-button">Show FAQS</button>
+        <ul id="faq-list">
+            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+            <li>
+                What is the best front-end language
+            </li>
+            <li>
+                Who will AI replace?
+            </li>
+            <li>
+                Which tech stack is the most marketable?
+            </li>
+            <li>
+                Best path for tech novice to employable?
+            </li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
